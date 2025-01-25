@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: url('image1.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire background */
+}
+  
+  header {
+    background: #0077cc;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-form {
+    margin-bottom: 20px;
+  }
+  
+  .email-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .email-form input, .email-form textarea, .email-form button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .email-form button {
+    background: #0077cc;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .email-form button:hover {
+    background: #005fa3;
+  }
+  
+  .suggestions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .suggestions li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+  }
+  

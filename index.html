@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Email Marketing Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI Email Marketing Platform</h1>
+  </header>
+  <main>
+    <section class="email-form">
+      <h2>Create Your Campaign</h2>
+      <form id="emailForm">
+        <label for="subject">Email Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter email subject" required>
+
+        <label for="content">Email Content:</label>
+        <textarea id="content" name="content" placeholder="Write your email content..." required></textarea>
+
+        <button type="button" id="generateSuggestions">Get AI Suggestions</button>
+        <button type="submit">Send Email</button>
+      </form>
+    </section>
+    <section class="suggestions">
+      <h2>AI Suggestions</h2>
+      <ul id="suggestionsList"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 AI Email Marketing</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
